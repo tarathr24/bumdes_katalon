@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_kecamatan_papar</name>
+   <tag></tag>
+   <elementGuidId>b979f598-616d-4bf0-b20f-7ac8a3eb767f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;menu-district_id&quot;]/div[3]/ul/li[11]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;menu-district_id&quot;]/div[3]/ul/li[11]</value>
+   </webElementProperties>
+</WebElementEntity>

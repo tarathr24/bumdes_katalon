@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>soal_7.1_text</name>
+   <tag></tag>
+   <elementGuidId>1ac9f27e-a459-4c02-85c1-9732eadaa0ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;root&quot;]/div[4]/div[2]/div[1]/div[2]/div/div[7]/div/div/div[1]/div/div/div/div/div/div[1]/div[2]][count(. | //*[@class = 'css-1g6gooi']) = count(//*[@class = 'css-1g6gooi'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/div[4]/div[2]/div[1]/div[2]/div/div[7]/div/div/div[1]/div/div/div/div/div/div[1]/div[2]]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1g6gooi</value>
+   </webElementProperties>
+</WebElementEntity>

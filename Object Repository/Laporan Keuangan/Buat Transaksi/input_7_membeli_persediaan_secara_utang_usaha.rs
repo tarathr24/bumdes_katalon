@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_7_membeli_persediaan_secara_utang_usaha</name>
+   <tag></tag>
+   <elementGuidId>793f5b99-da7c-4830-908a-212dabda939c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;purchase_inventory_accounts_payable&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;purchase_inventory_accounts_payable&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>URL DEV BUMDES</description>
+      <initValue>'http://bumdes-digital.dev.ddb.id/'</initValue>
+      <name>urL_dev</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>URL PROD BUMDES</description>
+      <initValue>'https://bumdes-digital.bbri.io/'</initValue>
+      <name>url_prod</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'panggihpanges2@gmail.com'</initValue>
+      <name>username_dev_valid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'stwnakbr710@gmail.com'</initValue>
+      <name>username_prod_valid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DCGmz5KXBpzvDkLA'</initValue>
+      <name>password_dev_valid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Stwnakbr710'</initValue>
+      <name>password_prod_valid</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

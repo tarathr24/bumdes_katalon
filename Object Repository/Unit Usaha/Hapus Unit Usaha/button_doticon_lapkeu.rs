@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_doticon_lapkeu</name>
+   <tag></tag>
+   <elementGuidId>1bc1726b-ad5b-4cad-97d4-0ab9cb7dd85e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div/div[4]/div[2]/div/div/div[1]/div/div[1]/div[2]/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div/div[4]/div[2]/div/div/div[1]/div/div[1]/div[2]/div/i</value>
+   </webElementProperties>
+</WebElementEntity>

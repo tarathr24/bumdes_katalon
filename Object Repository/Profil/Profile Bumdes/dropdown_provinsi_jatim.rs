@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_provinsi_jatim</name>
+   <tag></tag>
+   <elementGuidId>09286dc9-52ec-405b-b784-213028f6d9ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;menu-province_id&quot;]/div[3]/ul/li[12]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;menu-province_id&quot;]/div[3]/ul/li[12]</value>
+   </webElementProperties>
+</WebElementEntity>

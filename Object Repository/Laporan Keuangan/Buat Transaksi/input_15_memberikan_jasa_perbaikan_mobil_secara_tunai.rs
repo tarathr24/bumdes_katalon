@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_15_memberikan_jasa_perbaikan_mobil_secara_tunai</name>
+   <tag></tag>
+   <elementGuidId>df2e40a3-af8e-41ec-8292-1417fb934c0e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;repair_services_in_cash&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;repair_services_in_cash&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

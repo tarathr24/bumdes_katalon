@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>soal_4.4</name>
+   <tag></tag>
+   <elementGuidId>dc073868-2d01-441f-9ba3-8888180c40ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;root&quot;]/div[4]/div[2]/div[1]/div[2]/div/div[4]/div/div/div[4]/div/div/div[3]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/div[4]/div[2]/div[1]/div[2]/div/div[4]/div/div/div[4]/div/div/div[3]/label</value>
+   </webElementProperties>
+</WebElementEntity>

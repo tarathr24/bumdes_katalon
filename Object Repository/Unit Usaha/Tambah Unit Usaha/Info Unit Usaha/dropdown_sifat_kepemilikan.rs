@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_sifat_kepemilikan</name>
+   <tag></tag>
+   <elementGuidId>1f1261c6-6a8c-4f46-91f2-2aeb9dfa9da2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mui-component-select-ownership&quot;][count(. | //*[@id = 'mui-component-select-ownership']) = count(//*[@id = 'mui-component-select-ownership'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;mui-component-select-ownership&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mui-component-select-ownership</value>
+   </webElementProperties>
+</WebElementEntity>

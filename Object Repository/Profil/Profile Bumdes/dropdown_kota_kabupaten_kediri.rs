@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_kota_kabupaten_kediri</name>
+   <tag></tag>
+   <elementGuidId>b6e53965-78f6-422c-a48c-eb92f79fc4e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;menu-regency_id&quot;]/div[3]/ul/li[10]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;menu-regency_id&quot;]/div[3]/ul/li[10]</value>
+   </webElementProperties>
+</WebElementEntity>

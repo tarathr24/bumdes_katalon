@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_pertanyaan_3</name>
+   <tag></tag>
+   <elementGuidId>ba9a3319-f50a-48df-bc84-2cfa96ff6f0c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div/div[5]/div[2]/div/div[2]/div/div[4]/div[2]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div/div[5]/div[2]/div/div[2]/div/div[4]/div[2]/div/input</value>
+   </webElementProperties>
+</WebElementEntity>

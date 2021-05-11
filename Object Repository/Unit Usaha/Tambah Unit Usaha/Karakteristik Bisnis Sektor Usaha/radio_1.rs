@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>radio_1</name>
+   <tag></tag>
+   <elementGuidId>90b5dfa0-28e9-4d31-b093-b3b81351fdeb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;root&quot;]/div[5]/div[2]/div/div[2]/div/div[4]/div[2]/div[1]/div/label/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/div[5]/div[2]/div/div[2]/div/div[4]/div[2]/div[1]/div/label/div</value>
+   </webElementProperties>
+</WebElementEntity>

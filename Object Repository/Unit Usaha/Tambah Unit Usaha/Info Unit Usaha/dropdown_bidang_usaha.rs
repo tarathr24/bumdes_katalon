@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_bidang_usaha</name>
+   <tag></tag>
+   <elementGuidId>d0d5ced9-8fc5-456c-afe8-629ebcb1c726</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mui-component-select-business_field_id62&quot;][count(. | //*[@id = 'mui-component-select-business_field_id62']) = count(//*[@id = 'mui-component-select-business_field_id62'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;mui-component-select-business_field_id62&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mui-component-select-business_field_id62</value>
+   </webElementProperties>
+</WebElementEntity>

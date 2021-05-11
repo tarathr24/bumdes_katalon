@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_lanjutkan</name>
+   <tag></tag>
+   <elementGuidId>3a8627b5-6f85-47d8-a86d-3e7e386718f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div/div[5]/div[2]/div/div/div/div/div[2]/div[6]/div/div/p/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div/div[5]/div[2]/div/div/div/div/div[2]/div[6]/div/div/p/a[2]</value>
+   </webElementProperties>
+</WebElementEntity>

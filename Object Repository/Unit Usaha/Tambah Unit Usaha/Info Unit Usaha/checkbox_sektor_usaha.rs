@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_sektor_usaha</name>
+   <tag></tag>
+   <elementGuidId>fa58a297-e243-4e2a-9ce7-a6fee59a43f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;root&quot;]/div[5]/div[2]/div/div[2]/div/div[2]/div[8]/div[2]/div[3]/div/label/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/div[5]/div[2]/div/div[2]/div/div[2]/div[8]/div[2]/div[3]/div/label/div</value>
+   </webElementProperties>
+</WebElementEntity>

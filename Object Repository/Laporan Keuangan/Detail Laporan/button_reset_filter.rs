@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_reset_filter</name>
+   <tag></tag>
+   <elementGuidId>a8f0fa87-63d5-4d1b-8016-1842ff840bf6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;root&quot;]/div[5]/div[2]/div/div/div/div/div[1]/div[1]/div/button[2]/u</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/div[5]/div[2]/div/div/div/div/div[1]/div[1]/div/button[2]/u</value>
+   </webElementProperties>
+</WebElementEntity>

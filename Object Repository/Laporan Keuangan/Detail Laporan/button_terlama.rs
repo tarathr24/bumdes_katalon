@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_terlama</name>
+   <tag></tag>
+   <elementGuidId>a690d987-c4e2-4f27-8a45-55a9e0264547</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;root&quot;]/div[5]/div[2]/div/div/div/div/div[2]/div[1]/div[2]/button/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/div[5]/div[2]/div/div/div/div/div[2]/div[1]/div[2]/button/div/div[2]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>soal_7.7_input</name>
+   <tag></tag>
+   <elementGuidId>ed6d5270-a548-4c45-abd3-08a0a17a9ef6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div/div[4]/div[2]/div[1]/div[2]/div/div[8]/div/div/div[7]/div/div/div/div/div/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div/div[4]/div[2]/div[1]/div[2]/div/div[8]/div/div/div[7]/div/div/div/div/div/div[1]</value>
+   </webElementProperties>
+</WebElementEntity>

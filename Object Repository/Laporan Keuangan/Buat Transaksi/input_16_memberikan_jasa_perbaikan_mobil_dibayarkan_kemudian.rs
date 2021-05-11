@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_16_memberikan_jasa_perbaikan_mobil_dibayarkan_kemudian</name>
+   <tag></tag>
+   <elementGuidId>aa95ea43-8e76-4f90-95fc-262740b118e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;repair_services_pay_later&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;repair_services_pay_later&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

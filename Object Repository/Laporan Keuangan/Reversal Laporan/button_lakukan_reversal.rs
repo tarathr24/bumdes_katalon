@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_lakukan_reversal</name>
+   <tag></tag>
+   <elementGuidId>54d866a7-98d0-4039-866f-e4d4792e6a09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div/div[5]/div[2]/div/div/div/div/div[2]/div[5]/div/div/div/div/div[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div/div[5]/div[2]/div/div/div/div/div[2]/div[5]/div/div/div/div/div[3]/button</value>
+   </webElementProperties>
+</WebElementEntity>
