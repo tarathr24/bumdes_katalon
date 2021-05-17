@@ -84,7 +84,7 @@ WebUI.setText(findTestObject('Object Repository/Assessment/Indikator Keberhasila
 
 WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/Perspektif Sosial/soal_5.4_input'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/Perspektif Sosial/soal_5.4_input'),
 	'100')
