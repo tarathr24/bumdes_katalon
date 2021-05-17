@@ -59,7 +59,7 @@ WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_alam
 
 WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_nomor_registrasi'), '111')
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/button_simpan'))
 
