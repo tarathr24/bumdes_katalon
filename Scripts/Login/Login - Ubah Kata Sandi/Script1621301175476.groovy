@@ -14,17 +14,27 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Daftar Menu/btn_laporan_keuangan'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Laporan Keuangan/Filter Tanggal/button_filter_tanggal'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Laporan Keuangan/Filter Tanggal/button_save'))
+WebUI.navigateToUrl('http://bumdes-digital.dev.ddb.id/')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Laporan Keuangan/Filter Tanggal/button_reset_filter'))
+WebUI.click(findTestObject('Object Repository/Page_BUMDES DIGITAL/div_Login_a-decoration__right'))
+
+WebUI.setText(findTestObject('Object Repository/Page_BUMDES DIGITAL/input_Selamat Datang_valueNik'), 'ashrisasongko@gmail.com')
+
+WebUI.setText(findTestObject('Object Repository/Page_BUMDES DIGITAL/input_Selamat Datang_valuePin'), 'Ashrisasongk0')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_BUMDES DIGITAL/button_Login'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.verifyTextPresent('Selamat Datang', true, FailureHandling.OPTIONAL)
+

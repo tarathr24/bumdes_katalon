@@ -15,24 +15,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Object Repository/Daftar Menu/btn_profil'))
 
 WebUI.click(findTestObject('Profil/Ubah Keamanan/button_ubah_keamanan'))
 
 WebUI.click(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_katasandi_lama'))
 
-WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_katasandi_lama'),'DCGmz5KXBpzvDkLA')
+WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_katasandi_lama'), 'Ashrisasongk0')
 
 WebUI.click(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_katasandi_baru'))
 
-WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_katasandi_baru'), 'Panggihpanges2')
+WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_katasandi_baru'), 'Ashrisasongko1')
 
 WebUI.click(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_confirm_katasandi'))
 
-WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_confirm_katasandi'), 'Panggihpanges2')
+WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_confirm_katasandi'), 'Ashrisasongko1')
 
 WebUI.click(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_simpan'))
 
 WebUI.click(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_ok'))
+

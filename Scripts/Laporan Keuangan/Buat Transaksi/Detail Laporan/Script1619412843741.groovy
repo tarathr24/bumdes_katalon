@@ -46,3 +46,12 @@ WebUI.click(findTestObject('Object Repository/Laporan Keuangan/Detail Laporan/bu
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Laporan Keuangan/Detail Laporan/button_lihat'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Laporan Keuangan/Detail Laporan/button_close'))
+
+WebUI.delay(2)
+
+WebUI.callTestCase(findTestCase('Login/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+

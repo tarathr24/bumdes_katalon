@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)  
 
 WebUI.click(findTestObject('Object Repository/Daftar Menu/btn_laporan_keuangan'))
 
@@ -47,3 +47,4 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Laporan Keuangan/Lihat Laporan/button_laba_rugi'))
 
+WebUI.delay(3)

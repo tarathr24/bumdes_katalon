@@ -15,9 +15,11 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_BUMDES DIGITAL/btn_profile'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_BUMDES DIGITAL/btn_logout'))
 
