@@ -20,17 +20,12 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://bumdes-digital.dev.ddb.id/login')
+WebUI.navigateToUrl('https://bumdes-digital.bbri.io/')
 
 WebUI.click(findTestObject('Object Repository/Page_BUMDES DIGITAL/div_Login_a-decoration__right'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BUMDES DIGITAL/input_Selamat Datang_valueNik'), '081213911810')
+WebUI.setText(findTestObject('Object Repository/Page_BUMDES DIGITAL/input_Selamat Datang_valueNik'), '081288050084')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_BUMDES DIGITAL/input_Selamat Datang_valuePin'), '/2a2VCRGGzLKDpkG9sA10PRfL8IeN71z')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_BUMDES DIGITAL/input_Selamat Datang_valuePin'), 'T8kHWkE73HzdXXH9Hv0iaQ==')
 
 WebUI.click(findTestObject('Object Repository/Page_BUMDES DIGITAL/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/Page_BUMDES DIGITAL/btn_profile'))
-
-WebUI.click(findTestObject('Object Repository/Page_BUMDES DIGITAL/btn_logout'))
-

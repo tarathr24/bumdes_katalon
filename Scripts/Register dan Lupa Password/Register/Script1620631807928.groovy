@@ -19,7 +19,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://bumdes-digital.dev.ddb.id/')
+WebUI.navigateToUrl('https://bumdes-digital.bbri.io/')
 
 WebUI.delay(3)
 
@@ -52,3 +52,4 @@ WebUI.click(findTestObject('Object Repository/Register/button_kirim'))
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Register/button_ok'))
+

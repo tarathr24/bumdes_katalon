@@ -19,16 +19,17 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://bumdes-digital.dev.ddb.id/')
+WebUI.navigateToUrl('https://bumdes-digital.bbri.io/')
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Lupa Password/button_lupa_password'))
 
-WebUI.setText(findTestObject('Object Repository/Lupa Password/input_email'), 'panggihpanges2@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Lupa Password/input_email'), 'stwnakbr710@gmail.com')
 
 WebUI.click(findTestObject('Object Repository/Lupa Password/button_kirim'))
 
 WebUI.click(findTestObject('Object Repository/Lupa Password/button_lanjutkan'))
 
 WebUI.click(findTestObject('Object Repository/Lupa Password/button_ok'))
+

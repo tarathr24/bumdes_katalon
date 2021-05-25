@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_close</name>
+   <name>button_lihat_halaman_perspektif_sosial</name>
    <tag></tag>
-   <elementGuidId>ca331a29-9b0f-4c3f-a57f-d97f06c34441</elementGuidId>
+   <elementGuidId>69363419-7ea2-42ba-8b5e-d4e89d9c921b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div/div[5]/div[2]/div/div/div/div/div[2]/div[4]/div/div/div/button/i</value>
+         <value>/html/body/div/div[4]/div[2]/div[1]/div[1]/div/ol/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div/div[5]/div[2]/div/div/div/div/div[2]/div[4]/div/div/div/button/i</value>
+      <value>/html/body/div/div[4]/div[2]/div[1]/div[1]/div/ol/li[3]/a</value>
    </webElementProperties>
 </WebElementEntity>

@@ -15,19 +15,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Daftar Menu/btn_assessment'))
+//WebUI.click(findTestObject('Object Repository/Daftar Menu/btn_assessment'))
 
 //WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/button_mulai'))
 
-WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/button_detail'))
+//WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/button_detail'))
 
-WebUI.delay(2)
+//WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/button_lanjutkan'))
+//WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/button_lanjutkan'))
 
-WebUI.delay(2)
+//WebUI.delay(2)
+
+//WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/Perspektif Sosial/button_lihat_halaman_perspektif_sosial'))
 
 WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/Perspektif Sosial/soal_1_button'))
 
@@ -91,3 +93,4 @@ WebUI.setText(findTestObject('Object Repository/Assessment/Indikator Keberhasila
 
 WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/Perspektif Sosial/button_selanjutnya'))
 
+WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/Perspektif Sosial/button_ok'))

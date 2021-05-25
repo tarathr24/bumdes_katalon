@@ -20,15 +20,15 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://bumdes-digital.dev.ddb.id/')
+WebUI.navigateToUrl('https://bumdes-digital.bbri.io/')
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_BUMDES DIGITAL/div_Login_a-decoration__right'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BUMDES DIGITAL/input_Selamat Datang_valueNik'), 'ashrisasongko@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_BUMDES DIGITAL/input_Selamat Datang_valueNik'), 'ashrisasongko@work.bri.co.id')
 
-WebUI.setText(findTestObject('Object Repository/Page_BUMDES DIGITAL/input_Selamat Datang_valuePin'), 'Ashrisasongk0')
+WebUI.setText(findTestObject('Object Repository/Page_BUMDES DIGITAL/input_Selamat Datang_valuePin'), 'Ashrisasongko1')
 
 WebUI.delay(2)
 

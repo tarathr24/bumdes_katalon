@@ -21,13 +21,13 @@ WebUI.click(findTestObject('Object Repository/Daftar Menu/btn_profil'))
 
 WebUI.uploadFile(findTestObject('Object Repository/Profil/Profile Bumdes/img_upload'), 'D:\\docker.png')
 
-WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_nama_direktur'), 'Deo Prasetyo')
+WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_nama_direktur'), 'Setiawan Akbar')
 
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_jabatan'))
 
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_jabatan_pengurus'))
 
-WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_nomor_telepon_direktur'), '082110059493')
+WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_nomor_telepon_direktur'), '081288050084')
 
 WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_nama_bumdes'), 'Jasa Sewa')
 
@@ -57,7 +57,7 @@ WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_kode
 
 WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_alamat'), 'Grand Depok City')
 
-WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_nomor_registrasi'), '111')
+WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_nomor_registrasi'), '1901061002')
 
 WebUI.delay(3)
 

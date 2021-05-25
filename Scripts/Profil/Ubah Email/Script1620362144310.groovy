@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-//WebUI.callTestCase(findTestCase('Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/Login - Ubah Email'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Daftar Menu/btn_profil'))
 
@@ -30,3 +30,4 @@ WebUI.setText(findTestObject('Object Repository/Profil/Akun/input_email'), 'nura
 WebUI.click(findTestObject('Object Repository/Profil/Akun/button_simpan'))
 
 WebUI.click(findTestObject('Object Repository/Profil/Akun/button_lanjutkan'))
+

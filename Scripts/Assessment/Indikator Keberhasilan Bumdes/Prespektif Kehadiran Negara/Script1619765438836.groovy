@@ -19,13 +19,15 @@ WebUI.callTestCase(findTestCase('Login/Login'), [:], FailureHandling.STOP_ON_FAI
 
 WebUI.click(findTestObject('Object Repository/Daftar Menu/btn_assessment'))
 
-WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/button_detail'))
+WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/button_mulai'))
 
-WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/button_lanjutkan'))
+//WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/button_detail'))
 
-WebUI.click(findTestObject('Assessment/Indikator Keberhasilan Bumdes/Perspektif Kehadiran Negara/button_lihat_halaman_perspektif_kehadiran_negara'))
+//WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/button_lanjutkan'))
 
-WebUI.delay(1)
+//WebUI.click(findTestObject('Assessment/Indikator Keberhasilan Bumdes/Perspektif Kehadiran Negara/button_lihat_halaman_perspektif_kehadiran_negara'))
+
+//WebUI.delay(1)
 
 WebUI.click(findTestObject('Assessment/Indikator Keberhasilan Bumdes/Perspektif Kehadiran Negara/soal_1.1_button'))
 

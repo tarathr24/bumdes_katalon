@@ -15,4 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/Perspektif Sosial/soal_6.1_radio'))
+WebUI.callTestCase(findTestCase('Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Assessment/Indikator Keberhasilan Bumdes/button_mulai'))
+
+WebUI.callTestCase(findTestCase('Assessment/Indikator Keberhasilan Bumdes/Prespektif Kehadiran Negara'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Assessment/Indikator Keberhasilan Bumdes/Prespektif Bisnis'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Assessment/Indikator Keberhasilan Bumdes/Perspektif Sosial'), [:], FailureHandling.STOP_ON_FAILURE)
+
