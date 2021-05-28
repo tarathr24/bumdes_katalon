@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/Profil/Akun/input_email'))
 
 WebUI.clearText(findTestObject('Object Repository/Profil/Akun/input_email'))
 
-WebUI.setText(findTestObject('Object Repository/Profil/Akun/input_email'), 'nuraidadwiyantii@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Profil/Akun/input_email'), 'nuraidadwiyanti@gmail.com')
 
 WebUI.click(findTestObject('Object Repository/Profil/Akun/button_simpan'))
 

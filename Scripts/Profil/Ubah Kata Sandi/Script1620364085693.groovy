@@ -23,15 +23,15 @@ WebUI.click(findTestObject('Profil/Ubah Keamanan/button_ubah_keamanan'))
 
 WebUI.click(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_katasandi_lama'))
 
-WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_katasandi_lama'), 'Ashrisasongko1')
+WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_katasandi_lama'), 'Ashrisasongk0')
 
 WebUI.click(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_katasandi_baru'))
 
-WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_katasandi_baru'), 'Ashrisasongk0')
+WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_katasandi_baru'), 'Ashrisasongko1')
 
 WebUI.click(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_confirm_katasandi'))
 
-WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_confirm_katasandi'), 'Ashrisasongk0')
+WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_confirm_katasandi'), 'Ashrisasongko1')
 
 WebUI.click(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah Kata Sandi/btn_simpan'))
 

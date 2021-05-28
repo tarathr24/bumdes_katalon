@@ -23,11 +23,11 @@ WebUI.click(findTestObject('Object Repository/Profil/Ubah Keamanan/button_ubah_k
 
 WebUI.click(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah PIN/button_ubah_pin'))
 
-WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah PIN/button_pin_lama'), '120297')
+WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah PIN/button_pin_lama'), '000000')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah PIN/button_pin_baru'), '000000')
+WebUI.setText(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah PIN/button_pin_baru'), '120297')
 
 WebUI.click(findTestObject('Object Repository/Profil/Ubah Keamanan/Ubah PIN/button_simpan'))
 

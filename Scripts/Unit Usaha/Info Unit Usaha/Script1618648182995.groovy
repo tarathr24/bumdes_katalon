@@ -16,15 +16,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.apache.commons.lang.RandomStringUtils as RandStr
 
-WebUI.uploadFile(findTestObject('Unit Usaha/Tambah Unit Usaha/Info Unit Usaha/img_upload'), 'D:\\docker.png')
+WebUI.uploadFile(findTestObject('Unit Usaha/Tambah Unit Usaha/Info Unit Usaha/img_upload'), '/mnt/img/docker.png')
 
 rand_number = RandStr.randomNumeric(5)
 
-WebUI.setText(findTestObject('Unit Usaha/Tambah Unit Usaha/Info Unit Usaha/input_nama_unit_usaha'), 'Jasa Sewa' + rand_number )
+WebUI.setText(findTestObject('Unit Usaha/Tambah Unit Usaha/Info Unit Usaha/input_nama_unit_usaha'), 'Sewa Jasa' + rand_number )
 
 WebUI.setText(findTestObject('Unit Usaha/Tambah Unit Usaha/Info Unit Usaha/input_tahun_mulai_usaha'), '2020')
 
-WebUI.setText(findTestObject('Unit Usaha/Tambah Unit Usaha/Info Unit Usaha/input_nama_pengurus'), 'Deo Prasetyo')
+WebUI.setText(findTestObject('Unit Usaha/Tambah Unit Usaha/Info Unit Usaha/input_nama_pengurus'), 'Setiawan Akbar')
 
 WebUI.click(findTestObject('Unit Usaha/Tambah Unit Usaha/Info Unit Usaha/dropdown_jabatan_pengurus'))
 
