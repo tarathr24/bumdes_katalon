@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Object Repository/Page_BUMDES DIGITAL/div_Login_a-de
 
 WebUI.setText(findTestObject('Object Repository/Page_BUMDES DIGITAL/input_Selamat Datang_valueNik'), 'ashrisasongko@work.bri.co.id')
 
-WebUI.setText(findTestObject('Object Repository/Page_BUMDES DIGITAL/input_Selamat Datang_valuePin'), 'Ashrisasongko1')
+WebUI.setText(findTestObject('Object Repository/Page_BUMDES DIGITAL/input_Selamat Datang_valuePin'), 'Ashrisasongk0')
 
 WebUI.delay(2)
 
