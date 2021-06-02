@@ -21,7 +21,7 @@ WebUI.click(findTestObject('Object Repository/Daftar Menu/btn_profil'))
 
 WebUI.uploadFile(findTestObject('Object Repository/Profil/Profile Bumdes/img_upload'), '/mnt/img/docker.png')
 
-WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_nama_direktur'), 'Akbar Setiawan')
+WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_nama_direktur'), 'Setiawan Akbar')
 
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_jabatan'))
 
@@ -45,9 +45,15 @@ WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_pro
 
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_provinsi_jatim'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_kota_kabupaten'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_kota_kabupaten_kediri'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_kecamatan'))
 
