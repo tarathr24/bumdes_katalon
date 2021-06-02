@@ -47,13 +47,9 @@ WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_pro
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_kota_kabupaten'), 30)
-
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_kota_kabupaten'))
 
 WebUI.delay(2)
-
-WebUI.scrollToElement(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_kota_kabupaten_kediri'), 30)
 
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_kota_kabupaten_kediri'))
 
