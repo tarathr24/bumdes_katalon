@@ -21,11 +21,11 @@ WebUI.click(findTestObject('Object Repository/Daftar Menu/btn_assessment'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Assessment/Ekosistem Pendukung perkembangan Bumdes/button_mulai'))
+//WebUI.click(findTestObject('Object Repository/Assessment/Ekosistem Pendukung perkembangan Bumdes/button_mulai'))
 
-//WebUI.click(findTestObject('Object Repository/Assessment/Ekosistem Pendukung perkembangan Bumdes/button_detail'))
+WebUI.click(findTestObject('Object Repository/Assessment/Ekosistem Pendukung perkembangan Bumdes/button_detail'))
 
-//WebUI.click(findTestObject('Object Repository/Assessment/Ekosistem Pendukung perkembangan Bumdes/button_lanjutkan_asseesment'))
+WebUI.click(findTestObject('Object Repository/Assessment/Ekosistem Pendukung perkembangan Bumdes/button_lanjutkan_asseesment'))
 
 WebUI.callTestCase(findTestCase('Assessment/Ekosistem Pendukung Perkembangan Bumdes/Unsur Jaringan dan Kerjasama'), [:], 
     FailureHandling.STOP_ON_FAILURE)

@@ -24,7 +24,7 @@ WebUI.setText(findTestObject('Unit Usaha/Tambah Unit Usaha/Info Unit Usaha/input
 
 WebUI.setText(findTestObject('Unit Usaha/Tambah Unit Usaha/Info Unit Usaha/input_tahun_mulai_usaha'), '2020')
 
-WebUI.setText(findTestObject('Unit Usaha/Tambah Unit Usaha/Info Unit Usaha/input_nama_pengurus'), 'Anam Wahid')
+WebUI.setText(findTestObject('Unit Usaha/Tambah Unit Usaha/Info Unit Usaha/input_nama_pengurus'), 'Wahid Khairul Anam')
 
 WebUI.click(findTestObject('Unit Usaha/Tambah Unit Usaha/Info Unit Usaha/dropdown_jabatan_pengurus'))
 

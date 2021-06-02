@@ -47,9 +47,13 @@ WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_pro
 
 WebUI.delay(2)
 
+WebUI.scrollToElement(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_kota_kabupaten'), 30)
+
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_kota_kabupaten'))
 
 WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_kota_kabupaten_kediri'), 30)
 
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_kota_kabupaten_kediri'))
 
@@ -61,7 +65,7 @@ WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_kec
 
 WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_kodepos'), '16412')
 
-WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_alamat'), 'Grand Depok City')
+WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_alamat'), 'Jl. Papar')
 
 WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_nomor_registrasi'), '1901061002')
 
@@ -76,3 +80,4 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/button_simpan_confirm'))
 
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/button_ok'))
+
