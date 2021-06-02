@@ -21,7 +21,7 @@ WebUI.click(findTestObject('Object Repository/Daftar Menu/btn_profil'))
 
 WebUI.uploadFile(findTestObject('Object Repository/Profil/Profile Bumdes/img_upload'), '/mnt/img/docker.png')
 
-WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_nama_direktur'), 'Wahid Khairul Anam')
+WebUI.setText(findTestObject('Object Repository/Profil/Profile Bumdes/input_nama_direktur'), 'Setiawan Akbar')
 
 WebUI.click(findTestObject('Object Repository/Profil/Profile Bumdes/dropdown_jabatan'))
 

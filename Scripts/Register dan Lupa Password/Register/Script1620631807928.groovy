@@ -25,13 +25,13 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Register/button_daftar_disini'))
 
-WebUI.setText(findTestObject('Object Repository/Register/input_email'), 'tarathr24@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Register/input_email'), 'auliashafira270@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Register/input_nohp'), '089650577592')
+WebUI.setText(findTestObject('Object Repository/Register/input_nohp'), '085891262594')
 
-WebUI.setText(findTestObject('Object Repository/Register/input_katasandi'), 'Tararatri123')
+WebUI.setText(findTestObject('Object Repository/Register/input_katasandi'), 'Auliashafira270')
 
-WebUI.setText(findTestObject('Object Repository/Register/input_konfirmasi_katasandi'), 'Tararatri123')
+WebUI.setText(findTestObject('Object Repository/Register/input_konfirmasi_katasandi'), 'Auliashafira270')
 
 WebUI.delay(3)
 
